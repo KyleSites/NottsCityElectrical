@@ -192,7 +192,7 @@ export default function App() {
           <div className="absolute inset-0 bg-brand-dark/70 backdrop-blur-[2px]"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-24">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -451,7 +451,7 @@ export default function App() {
                       </div>
                       <div className="min-w-0">
                         <p className="text-xs text-white/40 uppercase font-bold tracking-wider mb-1 sm:mb-2">Email Us</p>
-                        <p className="text-base sm:text-xl font-bold break-all">nottscityelectrical@gmail.com</p>
+                        <p className="text-sm sm:text-xl font-bold whitespace-nowrap">nottscityelectrical@gmail.com</p>
                         <p className="text-white/40 text-sm mt-1">We typically respond within 2-4 hours</p>
                       </div>
                     </div>
